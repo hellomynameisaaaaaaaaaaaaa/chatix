@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url(../res/font/SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url(../res/font/SpaceMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-weight: normal;
+    font-style: italic;
+
+    src: url(../res/font/SpaceMono-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-style: italic;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 60px;
+}
+
+h1 {
+    text-align: center;
+}

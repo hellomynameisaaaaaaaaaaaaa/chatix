@@ -1,0 +1,29 @@
+﻿@page
+@model chatix.Pages.SignUpModel
+@{
+	ViewData["Title"] = "sign up";
+	var req = Request;
+	
+}
+
+<form method="get">
+	<label for="username">username:</label>
+	<input type="text" name="username" id="username" placeholder="type here" required />
+
+	<label for="email">email:</label>
+	<input type="email" name="email" id="email" placeholder="type here" required />
+
+	<br />
+
+	<label for="password">password:</label>
+	<input type="password" name="password" id="password" placeholder="type here" required />
+
+	<small>passwords must be longer than 8 characters, and have one lowercase letter and one uppercase letter.</small>
+
+	<label for="cpassword">confirm password:</label>
+	<input type="password" name="cpassword" id="cpassword" placeholder="type here" required />
+		
+	<small>pretty please don't share these with anyone.</small>
+
+	<button type="submit">sign up</button>
+</form>
